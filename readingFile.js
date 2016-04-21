@@ -1,4 +1,4 @@
-var fs = require("fs");
+  var fs = require("fs");
 //reading the file
  fs.readFile('Attendance01-04-2016.dat','utf8',function (err,data){
     if (err) {
