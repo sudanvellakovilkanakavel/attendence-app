@@ -4,9 +4,9 @@ var fs = require("fs");
     if (err) {
        return console.error(err);
    }
-
+//spliting each line
    var lines = data.split("\n");
-
+//storeing in array and printing the file
 for (i=0;i<=lines.length;)
 {
 console.log(lines[i]);
