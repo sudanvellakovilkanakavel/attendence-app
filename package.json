@@ -1,10 +1,13 @@
 {
-  "name": "Backend",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "readingFile.js",
   "dependencies": {
-    "botkit": "^0.1.1"
+    "botkit": "^0.1.1",
+    "node-slack": "0.0.7",
+    "slack-node": "^0.2.0",
+    "slackbots": "^0.5.1",
+    "sqlite3": "^3.1.3"
   },
   "devDependencies": {},
   "scripts": {
@@ -12,5 +15,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }

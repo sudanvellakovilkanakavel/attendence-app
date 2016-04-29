@@ -1,6 +1,6 @@
       {
 
-    "text":"My Message" 
+   curl -X POST -H 'Content-type: application/json' --data '{"text":"next step.\n in life."}' https://hooks.slack.com/services/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
 
 
        }
