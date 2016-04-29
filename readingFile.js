@@ -1,5 +1,5 @@
 var Slack = require('node-slack');
-var slack = new Slack(hook_url,options);
+var slack = new Slack(https:hooks.slack.com/services/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,options);
 //var slack = new Slack(hook_url,{proxy: http_proxy});
 
 
