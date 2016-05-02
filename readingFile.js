@@ -9,7 +9,7 @@ var slack = new Slack('https://hooks.slack.com/services/T0PBQMXPY/B12FM6XH7/SJzX
 //I have used following package  https://github.com/xoxco/node-slack
 
 slack.send({
-    text: ' Daily Maplebots Attendence Data',
+    text: ' Daily Maplebots Attendence Data Coimbatore',
     channel: '#attendance',
     username: 'Bot',
     icon_emoji: 'taco',
@@ -17,13 +17,14 @@ slack.send({
     unfurl_links: true,
     link_names: 1
    
-    
+
+
+
 });
 
 
 
-
-  var fs = require("fs");
+var fs = require("fs");
 //reading the file
  fs.readFile('Attendance01-04-2016.dat','utf8',function (err,data){
     if (err) {
@@ -38,6 +39,11 @@ console.log(lines[i]);
 i=i+1;
 }
    });
+
+
+
+
+  
 
 
  
