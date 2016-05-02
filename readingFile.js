@@ -9,10 +9,15 @@ var slack = new Slack('https://hooks.slack.com/services/T0PBQMXPY/B12FM6XH7/SJzX
 //I have used following package  https://github.com/xoxco/node-slack
 
 slack.send({
-    text: 'Meassage from node.js app to slack!',
+    text: ' Daily Maplebots Attendence Data',
     channel: '#attendance',
     username: 'Bot',
-    icon_emoji: 'taco'
+    icon_emoji: 'taco',
+    attachments: 'Attendance01-04-2016.dat',
+    unfurl_links: true,
+    link_names: 1
+   
+    
 });
 
 
