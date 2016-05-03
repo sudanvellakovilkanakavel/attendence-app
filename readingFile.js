@@ -9,11 +9,20 @@ var slack = new Slack('https://hooks.slack.com/services/T0PBQMXPY/B12FM6XH7/SJzX
 //I have used following package  https://github.com/xoxco/node-slack
 
 slack.send({
-    text: ' Daily Maplebots Attendence Data Coimbatore',
+    text: ' !! Daily Maplebots Attendence Data Coimbatore !!',
     channel: '#attendance',
     username: 'Bot',
     icon_emoji: 'taco',
-    attachments: 'Attendance01-04-2016.dat',
+    attachments: [
+
+         {
+
+
+      filename:'Attendance01-04-2016.dat'
+
+          }
+
+                   ],
     unfurl_links: true,
     link_names: 1
    
@@ -21,6 +30,10 @@ slack.send({
 
 
 });
+
+
+
+
 
 
 
